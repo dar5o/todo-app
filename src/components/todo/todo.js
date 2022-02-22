@@ -128,7 +128,7 @@ const ToDo = () => {
           </label>
         </form>
       </Card>
-      
+      // eslint-disable-next-line
       {pagination().map((item, index) => {
         if (contextSettings.hide === false || item.complete === false) {
           return <Card key={index} interactive={true} elevation={Elevation.ONE}>
